@@ -28,9 +28,17 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js",
+              "./node_modules/jquery.cookie/jquery.cookie.js",
+              "./node_modules/jszip/dist/jszip.js",
+              "./node_modules/jquery-ui-dist/jquery-ui.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +131,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "primerproyecto"
+    }
+  },
+  "defaultProject": "primerproyecto",
+  "cli": {
+    "analytics": "b0414733-f63a-457c-822d-ff06e3c04d5e"
+  }
 }
